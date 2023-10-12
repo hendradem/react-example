@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .filter-button {
+    @apply my-3 py-1 px-4 border border-gray-200 text-gray-700 rounded-full;
+  }
+  .selected-filter-button {
+    @apply bg-blue-50 border-blue-300 text-blue-500;
+  }
+}
